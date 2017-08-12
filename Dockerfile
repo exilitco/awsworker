@@ -15,4 +15,4 @@ RUN apk -v --update add \
 RUN mkdir /data
 VOLUME ["/data"]
 WORKDIR /data
-ENTRYPOINT []
+ENTRYPOINT ["/bin/sh", "-c"]
