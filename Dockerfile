@@ -10,6 +10,7 @@ RUN apk -v --update add \
 	zip \
         less \
         mailcap \
+	curl \	
         && \
     update-ca-certificates && \
     pip install --upgrade awscli s3cmd python-magic && \
