@@ -7,6 +7,7 @@ RUN apk -v --update add \
         groff \
 	gzip \
 	mysql-client \
+	postgresql-client \
 	zip \
         less \
         mailcap \
